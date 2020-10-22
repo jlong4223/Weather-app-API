@@ -11,13 +11,14 @@ function handleGetData(event) {
         (data) => {
             console.log(data);
             $("#city").text(data.name)
+            $("#country").text(data.sys.country)
             $("#temperature").text(data.main.temp)
             $("#feels").text(data.main.feels_like)
             $("#weather").text(data.weather[0].description)
         },
         (error) => {
             console.log("bad request: ", error)
-        }
+        } 
     )
 }
 $('form').on("submit", handleGetData)
