@@ -3,3 +3,41 @@
     padding: 0; */
     box-sizing: border-box;
   }
+
+  body {
+      display: flex-column;
+      border: 5px solid green;
+      margin: 5px;
+  }
+
+  h1 {
+    display: flex; 
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: underline;
+    
+  }
+
+  main {
+      display: flex-column;
+      text-align: center;
+      border: 5px solid yellow;
+      margin-bottom: 100px;
+  }
+
+
+  
+  main p {
+      display: inline;
+      text-align: inline;
+      padding: 15px;
+  }
+
+  form {
+      text-align: center;
+  }
+
+  input {
+      font-size: 18px;
+  }
+  
