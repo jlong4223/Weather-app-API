@@ -30,8 +30,15 @@
       border-radius: 25px;
   }
 
+  section {
+      display: flex;
+      text-align: center;
+  }
 
-  
+  .words {
+      text-decoration: underline;
+  }
+
   main p {
       /* display: inline; */
       /* text-align: inline; */
@@ -40,10 +47,10 @@
       color: white;
   }
 
-  /* h3 {
-      font-size: 25px;
-      color: white;
-  } */
+  div{
+      text-align: center;
+  } 
+
   form {
       text-align: center;
   }
